@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIT120 PASS TASK 1.2</title>
+</head>
+<body>
+  <script>
+    // String methods
+    let str = "Hello, There!";
+    console.log("String:", str);
+    console.log("Length:", str.length);
+    console.log("Uppercase:", str.toUpperCase());
+    console.log("Substring:", str.substring(0, 5));
+    console.log("Replace:", str.replace("World", "Universe"));
+
+    // Number methods
+    let num = 42.5678;
+    console.log("Number:", num);
+    console.log("Fixed:", num.toFixed(2));
+    console.log("Exponential:", num.toExponential(3));
+    console.log("Precision:", num.toPrecision(4));
+    console.log("Rounded:", Math.round(num));
+
+    // Array methods
+    let arr = [3, 8, 1, "apple", "banana", 6];
+    console.log("Array:", arr);
+    console.log("Length:", arr.length);
+    console.log("Sorted:", arr.slice().sort());
+    console.log("Joined:", arr.join("-"));
+    console.log("Index of 'banana':", arr.indexOf("banana"));
+
+    // Date methods
+    let now = new Date();
+    console.log("Date:", now);
+    console.log("Year:", now.getFullYear());
+    console.log("Month:", now.getMonth());
+    console.log("Day:", now.getDate());
+    console.log("Hours:", now.getHours());
+
+    // Function methods
+    function greet(name) {
+      console.log("Hello,", name);
+    }
+    
+    function add(a, b) {
+      return a + b;
+    }
+
+    greet("Karan");
+    console.log("Sum:", add(5, 3));
+  </script>
+</body>
+</html>
+
